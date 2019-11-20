@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+    /* background-color: crimson; */
+    font-size: 50px;
+    height: auto;
+    padding: 20px;
+    width: 30%;
+  }
+
+
+
+  .container .box:nth-child(odd){
+    background-color: green
+  }
+
+  .container .box:nth-child(odd):hover{
+    background-color: red;
+  }
+
+  .container .box:nth-child(even){
+    background-color: yellow;
+  }
+
+  .container .box:nth-child(even):hover{
+    background-color: yellowgreen;
+  }

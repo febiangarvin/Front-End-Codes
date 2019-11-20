@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: brown !important;
+}
+#headtext{
+    font-family: Calistoga;
+    color: cadetblue;
+}
+.merah{
+    color: coral;
+}
+.ukuran{
+    font-size: 20px;
+    border: 1px solid;
+    color: cornflowerblue;
+}
+.parent{
+    width: 500px;
+    border: 1px solid;
+    height: 50px;
+    transition: 2s;
+}
+.parent:hover{
+    height: 500px;
+    cursor: pointer;
+}
+
+.parent:hover .merah{
+    color: cornsilk;
+    background-color: coral;
+}

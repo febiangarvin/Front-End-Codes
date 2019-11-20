@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    text-align: center;
+    color: cornsilk;
+    background-color: crimson;
+    font-size: 50px;
+    height: auto;
+  }
+
+.container {
+    height: 80vh;
+    display: flex;
+  }
+
+  .container .aside{
+    font-size: 50px;
+    width: 20%;
+    text-align: center;
+    color: honeydew;
+    background-color: wheat;
+    padding-top: 50px;
+  }
+
+  .container .aside-hover{
+    padding-top: 10px;
+    font-size: 30px;
+    color: wheat;
+  }
+
+  .container .aside:hover{
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: all 1s;
+}
+
+.container .aside-hover:hover{
+    color: teal;
+    transition: all 1s;
+}
+
+.container .body{
+    font-size: 50px;
+    width: 80%;
+    text-align: center;
+    color: honeydew;
+    background-color: wheat;
+    padding-top: 50px;
+  }
+
+  .container .body-hover{
+    padding-top: 10px;
+    font-size: 70px;
+    color: wheat;
+  }
+
+  .container .body:hover{
+    background: rgba(0, 0, 0, 0.1) !important;
+    transition: all 1s;
+}
+
+.container .body-hover:hover{
+    color: teal;
+    transition: all 1s;
+}
+
+  .footer{
+      text-align: center;
+    color: cornsilk;
+    background-color: crimson;
+    font-size: 50px;
+    height: 10vh;
+  }
